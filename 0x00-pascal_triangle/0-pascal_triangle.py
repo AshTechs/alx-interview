@@ -39,7 +39,7 @@ if __name__ == "__main__":
         Prints the Pascal's Triangle.
 
         Args:
-            triangle (list of lists): Pascal's Triangle represented as a list of lists of integers.
+            Pascal's Triangle represented as a list of lists of integers
         """
         for row in triangle:
             print("[{}]".format(",".join([str(x) for x in row])))
