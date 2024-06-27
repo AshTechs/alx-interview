@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""
+Defines a class PascalTriangle to generate Pascal's Triangle up to n rows.
+"""
 def pascal_triangle(n):
     """
     Generates Pascal's Triangle up to n rows.
