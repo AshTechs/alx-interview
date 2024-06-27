@@ -2,6 +2,8 @@
 """
 Defines a class PascalTriangle to generate Pascal's Triangle up to n rows.
 """
+
+
 def pascal_triangle(n):
     """
     Generates Pascal's Triangle up to n rows.
@@ -31,6 +33,7 @@ def pascal_triangle(n):
         triangle.append(current_row)
 
     return triangle
+
 
 # Example usage:
 if __name__ == "__main__":
