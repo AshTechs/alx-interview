@@ -4,7 +4,7 @@
 
 
 def minOperations(n):
-    
+
     """ Finds the number of time opertion is performed."""
 
     if not isinstance(n, int) or n < 0 or n == 1:
