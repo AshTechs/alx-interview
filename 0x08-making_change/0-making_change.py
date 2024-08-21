@@ -2,10 +2,10 @@
 def makeChange(coins, total):
     """
     Determine the fewest number of coins needed to meet a given total.
-
     :param coins: List of coin denominations.
     :param total: The total amount to meet with the coins.
-    :return: Fewest num of coins needed 2 meet the total, or -1 if it's nt poss
+    :return: Fewest number of coins needed to meet the total,
+            or -1 if it's not possible.
     """
     if total <= 0:
         return 0
